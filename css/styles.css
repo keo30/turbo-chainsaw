@@ -1,0 +1,165 @@
+#title{
+  background-color: pink;
+}
+
+
+#testimonials{
+  text-align: center;
+  background-color: pink;
+  color: white;
+}
+
+h1{
+  font-family: 'Barlow', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p{
+  font-size: 1rem;
+}
+
+body{
+  font-family: 'Barlow';
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* navigation bar */
+.navbar-brand{
+  font-family:'Titillium';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.row{
+  margin: 100px 0;
+
+}
+
+.fa-check-circle, .fa-bullseye, .fa-heart{
+  margin: 20px;
+  color: violet;
+}
+
+.fa-check-circle:hover, .fa-bullseye:hover, .fa-heart:hover{
+  margin: 20px;
+  color: pink;
+}
+
+
+
+
+}
+/*testimonial*/
+#testimonials {
+  text-align: center;
+  background-color: pink;
+  color: white;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/*press*/
+
+#press{
+  background-color: pink;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+/*pricing*/
+.container{
+  text-align: center;
+  padding: 5% 0;
+}
+
+.cardcontainer{
+  text-align: center;
+  padding: 0% 5% 5%;
+}
+
+.card{
+  margin-bottom: 3%;
+}
+
+/*Call to Action*/
+#cta{
+  text-align: center;
+  background-color: pink;
+  color: white;
+  padding:7% 3%;
+}
+
+/*Footer*/
+#footer{
+  text-align: center;
+  background-color: white;
+    padding:5% 3%;
+}
+
+.socmed{
+  width: 1%;
+  margin: 20px 20px 50px;
+}
+
+.socmed:hover{
+  margin: 20px;
+  color: violet;
+}
+
+/*Media Query*/
+@media only screen and (max-width:600px){
+#title{
+  background-color: violet;
+}
+#features{
+  background-color: pink;
+}
+#testimonials{
+  background-color: violet;
+}
+#press{
+  background-color: violet;
+}
+#pricing{
+  background-color: pink;
+}
+#cta{
+  background-color: violet;
+}
+#footer{
+  background-color: violet;
+}
+}
